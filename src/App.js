@@ -1,11 +1,11 @@
 import "./styles.css";
-import Celsius from "./celsius";
+import Navbar from "./Navbar";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <Celsius />
+      <h1>Temperature Converter</h1>
+      <Navbar />
     </div>
   );
 }
